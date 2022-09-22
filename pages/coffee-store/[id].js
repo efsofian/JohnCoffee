@@ -38,7 +38,7 @@ const CoffeeStore = (initialProps) => {
 		} else {
 			handleCreateCoffeeStore(initialProps.coffeeStore);
 		}
-	}, [id, initialProps, initialProps.coffeeStore]);
+	}, [id, initialProps, initialProps.coffeeStore, coffeeStores]);
 
 	useEffect(() => {
 		if (data && data.length > 0) {

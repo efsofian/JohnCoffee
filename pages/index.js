@@ -42,7 +42,7 @@ export default function Home({ coffeeStores }) {
 			}
 		};
 		fetchAsync();
-	}, [latLong]);
+	}, [latLong, dispatch]);
 
 	return (
 		<div className={styles.container}>
